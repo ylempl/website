@@ -49,7 +49,7 @@ export function createMoon(params: MoonParams) {
 /**
  * Add 2 moons with randomized position & speed.
  */
-export function addMoons(scene: THREE.Scene, earthPosition: THREE.Vector3, texture: THREE.Texture) {
+export function addMoons(scene: THREE.Scene, earthPosition: THREE.Vector3, texture: any) {
   // Real Moon params - smaller radius, closer orbit
   const realMoon = createMoon({
     radius: 1.35,
